@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="./icon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Calculator</title>
+  </head>
+  <body>
+    <section class="calculator">
+      <input type="text" id="result" disabled />
+      <p id="para" class="hide">Invalid Equality!</p>
+      <div class="numbers">
+        <div>
+          <button class="btn" data-num="(">(</button>
+          <button class="btn" data-num=")">)</button>
+          <button class="btn" data-num="3.14">π</button>
+          <button id="deleteLast">C</button>
+        </div>
+        <div>
+          <!-- <button class="btn" data-num="*">*</button>
+          <button class="btn" data-num="/">/</button>
+          <button class="btn" data-num="-">-</button>
+          <button class="btn" data-num="+">+</button> -->
+
+          <button class="btn" data-num="7">7</button>
+          <button class="btn" data-num="8">8</button>
+          <button class="btn" data-num="9">9</button>
+          <button class="btn" data-num="/">÷</button>
+        </div>
+        <div>
+          <!-- <button class="btn" data-num=".">.</button>
+          <button class="btn" data-num="9">9</button>
+          <button class="btn" data-num="8">8</button>
+          <button class="btn" data-num="7">7</button> -->
+
+          <button class="btn" data-num="4">4</button>
+          <button class="btn" data-num="5">5</button>
+          <button class="btn" data-num="6">6</button>
+          <button class="btn" data-num="*">*</button>
+        </div>
+        <div>
+          <!-- <button class="btn" data-num="6">6</button>
+          <button class="btn" data-num="5">5</button>
+          <button class="btn" data-num="4">4</button>
+          <button class="btn" data-num="3">3</button> -->
+
+          <button class="btn" data-num="1">1</button>
+          <button class="btn" data-num="2">2</button>
+          <button class="btn" data-num="3">3</button>
+          <button class="btn" data-num="-">-</button>
+        </div>
+        <div>
+          <!-- <button class="btn" data-num="2">2</button>
+          <button class="btn" data-num="1">1</button>
+          <button class="btn" data-num="0">0</button>
+          <button id="eq">=</button> -->
+
+          <button class="btn" data-num="0">0</button>
+          <button class="btn" data-num=".">.</button>
+          <button id="eq">=</button>
+          <button class="btn" data-num="+">+</button>
+        </div>
+        <!-- <button id="deleteLast">C</button> -->
+      </div>
+      <button id="deleteAll">AC</button>
+    </section>
+    <script src="./home.js"></script>
+  </body>
+</html>

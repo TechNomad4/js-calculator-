@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calculator {
+  max-width: 500px;
+  margin: 5rem auto 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #425363;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.numbers div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+#result {
+  width: 100%;
+  height: 60px;
+  font-size: 2rem;
+  padding: 0 10px;
+  background: #c3d4e4;
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+}
+
+#para {
+  text-align: center;
+  color: #fc8020;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #f1f3f4;
+  padding: 10px 40px;
+  margin: 10px 5px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  font-size: 2rem;
+}
+
+.numbers div:first-child button {
+  background-color: #dadce0;
+}
+
+.numbers div button:nth-child(4) {
+  background-color: #dadce0;
+}
+
+#eq {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+#deleteLast {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+#deleteAll {
+  background-color: #fc8020;
+  color: #fff;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .calculator {
+    margin: 5rem 1rem;
+  }
+
+  #result {
+    font-size: 1.5rem;
+  }
+
+  #para {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 5vw;
+    padding: 10px 20px;
+    margin: 5px;
+  }
+}
