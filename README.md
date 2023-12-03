@@ -1,5 +1,4 @@
-# js-calculator-
-Project task
+# js-calculator 
 This is a fully functional calculator, created using javascript.
 
 Built with
